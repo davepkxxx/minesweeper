@@ -1,0 +1,36 @@
+body {
+  background: black;
+}
+
+.clear {
+	clear: both;
+}
+
+.jewel {
+	border: 1px solid gray;
+	background: gray;
+	cursor: pointer;
+	display: block;
+	margin: 5px;
+	font-size: 28pt;
+	text-align: center;
+	width: 40px;
+	height: 40px;
+	float: left;
+}
+
+.temp {
+	position: absolute;
+	z-index: 1;
+}
+
+.none {
+	border: 1px solid black;
+	background: black;
+	color: black;
+	cursor: pointer;
+}
+
+.selected {
+	border: 1px dashed white;
+}
